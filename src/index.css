@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sans-font-family: 'Roboto', sans-serif;
+  --serif-font-family: 'Roboto Serif', serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(0, 0, 0, 0.9);
+  font-family: var(--sans-font-family);
+  font-size: 1.2rem;
+  overflow-x: hidden;
+}
+
+.serif {
+  font-family: var(--serif-font-family);
+}

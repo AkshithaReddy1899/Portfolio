@@ -1,6 +1,5 @@
 import React from 'react';
 import Roll from 'react-reveal/Roll';
-import { BsDownload } from 'react-icons/bs';
 import { ReactComponent as Women } from '../assets/women.svg';
 
 const About = () => (
@@ -20,10 +19,9 @@ const About = () => (
           </p>
           <div className="flex space-x-2 justify-center">
             <div>
-              <button type="button" className="px-6 pt-2.5 pb-2 bg-green-600 text-white font-bold leading-normal uppercase rounded shadow-md hover:bg-green-700 hover:shadow-lg focus:bg-green-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-800 active:shadow-lg transition duration-150 ease-in-out flex align-center justify-center items-center md:text-1.5xl">
-                <BsDownload />
-&nbsp;Download Resume
-              </button>
+              <a href="https://docs.google.com/document/d/1KNs-hqylG5itCTQvuigCDveSFVuT7rQRIy-hYPX-tJI/edit?usp=sharing" alt="resume" target="_blank" className="px-6 pt-2.5 pb-2 bg-green-600 text-white font-bold leading-normal uppercase rounded shadow-md hover:bg-green-700 hover:shadow-lg focus:bg-green-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-800 active:shadow-lg transition duration-150 ease-in-out flex align-center justify-center items-center md:text-1.5xl" rel="noreferrer">
+                View Resume
+              </a>
             </div>
           </div>
         </Roll>

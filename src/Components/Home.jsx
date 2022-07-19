@@ -7,7 +7,6 @@ import { FiCodepen } from 'react-icons/fi';
 import { ReactComponent as Logo } from '../assets/home.svg';
 
 const ConfettiJsx = React.lazy(() => import('./Confetti'));
-// const ArrowAnimation = React.lazy(() => import('./Arrow'));
 
 const Home = () => (
   <Fade bottom>

@@ -5,8 +5,7 @@
 Portfolio website build with React.js
 
 ## Screenshot
-
-![screenshot](/src/assets/Screenshot.png)
+![Screenshot](https://user-images.githubusercontent.com/70577783/179730123-4e4a34f7-1437-48ba-88b2-ae09d5cb3c20.png)
 
 ## Live demo
 

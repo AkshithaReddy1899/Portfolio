@@ -92,7 +92,7 @@ const Skills = () => (
           <h1 className="text-green-200">Miscellaneous</h1>
           <div className=" flex flex-wrap flex-row justify-center items-center p-8">
             <p className="flex flex-col justify-center items-center">
-              <DiResponsive size={30} title="Responsive web design" className="mx-2" />
+              <DiResponsive size={32} title="Responsive web design" className="mx-2" />
               <span className="text-xs text-green-700 m-2">Responsive design</span>
             </p>
             <p className="flex flex-col justify-center items-center">

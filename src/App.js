@@ -10,15 +10,15 @@ function App() {
   return (
     <div className="mx-auto md:mx-20 text-white">
       <Home />
-      <hr className="border-b border-gray-600 my-14 mx-12 md:hidden" />
+      <hr className="border-solid border-0 border-b border-gray-600 my-14 mx-12 md:hidden" />
       <About />
-      <hr className="border-b border-gray-600 my-14 mx-12 md:hidden" />
+      <hr className="border-solid border-0 border-b border-gray-600 my-14 mx-12 md:hidden" />
       <Skills />
-      <hr className="border-b border-gray-600 my-14 mx-12 md:hidden" />
+      <hr className="border-solid border-0 border-b border-gray-600 my-14 mx-12 md:hidden" />
       <Projects />
-      <hr className="border-b border-gray-600 my-14 mx-12 md:hidden" />
+      <hr className="border-solid border-0 border-b border-gray-600 my-14 mx-12 md:hidden" />
       <Contact />
-      <hr className="border-b border-gray-600 my-14 mx-12 md:hidden" />
+      <hr className="border-solid border-0 border-b border-gray-600 my-14 mx-12 md:hidden" />
       <Footer />
     </div>
   );

@@ -35,7 +35,7 @@ const Contact = () => {
           <span className="text-green-500" id="sent">&nbsp;</span>
           <span className="text-red-900" id="error">&nbsp;</span>
         </p>
-        <form className="flex flex-col justify-center items-center w-3/4 md:w-full mx-auto my-4">
+        <form className="flex flex-col justify-center items-center w-3/4 md:w-full md:px-8 lg:px-12 mx-auto my-4">
           <input type="text" name="sender_name" value={senderName} onChange={(e) => {setSenderName(e.target.value)}} required placeholder="your name" className="form-control block w-full px-3 py-1.5 text-base font-normaltext-emerald-400 bg-inherit bg-clip-padding border-b border-solid border-green-300 transition ease-in-out m-4 focus:text-emerald-400 focus:bg-inhert focus:border-green-600 focus:outline-none" />
           <input type="email" name="sender_email" value={senderEmail} onChange={(e) => {setSenderEmail(e.target.value)}} required placeholder="your_email@gmail.com" className="form-control block w-full px-3 py-1.5 text-base font-normaltext-emerald-400 bg-inherit bg-clip-padding border-b border-solid border-green-300 transition ease-in-out m-4 focus:text-emerald-400 focus:bg-inhert focus:border-green-600 focus:outline-none" />
           <textarea name="message" value={message} placeholder="your message" onChange={(e) => {setMessage(e.target.value)}} required className="form-control block w-full px-3 py-1.5 text-base font-normaltext-emerald-400 bg-inherit bg-clip-padding border-b border-solid border-green-300 transition ease-in-out m-4 focus:text-emerald-400 focus:bg-inhert focus:border-green-600 focus:outline-none" />

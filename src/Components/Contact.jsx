@@ -16,14 +16,14 @@ const Contact = () => {
     )
       .then((response) => {
         const div = document.getElementById('sent');
-        div.textContent = `Message sent successfully. ${response.message}`;
+        div.textContent = 'Message sent successfully :)';
         setSenderName('');
         setSenderEmail('');
         setMessage('');
       })
       .catch((err) => {
         const div = document.getElementById('error');
-        div.textContent = `OOPS! Unknown error occured. Try again later :( ${err.message}`;
+        div.textContent = 'OOPS! Unknown error occured. Try again later :(';
       });
   };
 

@@ -17,7 +17,7 @@ const Home = () => (
         <p className="text-fuchsia-300 text-4xl tracking-wide md:text-6xl lg:text-6xl my-2">Akshitha Reddy</p>
         <div className="text-green-300 text-2xl md:text-4xl lg:text-4xl py-4">
           <Typed
-            strings={['Front-end developer', 'Back-end developer', 'Full-stack developer', 'UX-Designer']}
+            strings={['Front-end developer', 'Back-end developer', 'Full-stack developer', 'Mobile developer', 'Web developer']}
             typeSpeed={30}
             backSpeed={60}
             loop

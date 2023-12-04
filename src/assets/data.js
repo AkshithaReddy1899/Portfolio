@@ -1,6 +1,7 @@
-import psycho from './psychosearch.png';
-import movie from './movieapp.png';
-import budget from './budgetapp.png';
+import psycho from './images/psychosearch.png';
+import movie from './images/movieapp.png';
+// import budget from './images/budgetapp.png';
+import budget from './images/budgetapp.png';
 
 const data = [
   {

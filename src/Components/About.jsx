@@ -1,5 +1,5 @@
 import React from 'react';
-import Roll from 'react-reveal/Roll';
+import Fade from 'react-reveal/Fade';
 import { ReactComponent as Women } from '../assets/women.svg';
 import akshithaReddyResume from '../assets/akshithaReddyResume.docx';
 
@@ -8,13 +8,13 @@ const About = () => (
     <h1 className="text-2xl text-gray-500">About</h1>
     <div className="flex lg:flex-row flex-col justify-center items-center mx-auto mt-18 lg:mt-16">
       <div className="w-80 h-80 lg:w-1/3 lg:h-1/3">
-        <Roll right>
+        <Fade>
           <Women className="w-80 h-80 lg:w-3/4 mx-auto lg:h-3/4" />
-        </Roll>
+        </Fade>
       </div>
       <div className="text-left text-gray-300 md:p-8 p-4 lg:w-1/2 lg:p-6">
-        <Roll left>
-          <p className="py-4">Hello! My name is Akshitha, and I enjoy building websites. I have a passion for creating the most beautiful and functional products. My programming skills are at the forefront of my work, with a focus on design and usability.
+        <Fade>
+          <p className="py-4">Hello! I am Akshitha, and I enjoy websites. I have a passion for creating the most beautiful and functional products. My programming skills are at the forefront of my work, with a focus on design and usability.
           </p>
           <div className="flex space-x-2 justify-center">
             <div>
@@ -23,7 +23,7 @@ const About = () => (
               </a>
             </div>
           </div>
-        </Roll>
+        </Fade>
       </div>
     </div>
   </div>

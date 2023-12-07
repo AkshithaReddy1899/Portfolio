@@ -17,10 +17,10 @@ import { TiTickOutline } from 'react-icons/ti';
 const Skills = () => {
   const skillsData = SkillsData;
   return(
-    <div className="text-center mt-24 lg:mt-12 md:pt-20">
+    <div className="text-center mt-24 lg:flex lg:flex-col justify-center items-center lg:mt-12 md:pt-0">
       <Slide bottom left>
     <h1 className="text-2xl text-gray-500">Skills</h1>
-    <div className="flex flex-wrap flex-col md:flex-row justify-between items-center lg:mt-20">
+    <div className="flex flex-wrap flex-col md:flex-row justify-between items-center lg:mt-20 lg:w-1/2 lg:justify-center">
       <div className="md:w-11/12 lg:w-3/4 md:mx-2 lg:mx-6 my-8">
           {
             skillsData.map((item) => {

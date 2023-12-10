@@ -11,7 +11,7 @@ const ConfettiJsx = React.lazy(() => import('./Confetti'));
 const Home = () => (
   <Fade bottom>
     <ConfettiJsx />
-    <div className="flex lg:flex-row flex-col justify-center items-center mx-auto pt-20 lg:pt-32 lg:pb-12 lg:text-2xl">
+    <div className="flex lg:flex-row flex-col justify-center items-center mx-auto pt-20 lg:py-32 lg:pb-12 lg:text-2xl">
       <div className="px-8 text-zinc-400 text-center leading-10 lg:w-1/2">
         <p>Hello there! I am </p>
         <p className="text-fuchsia-300 text-4xl tracking-wide md:text-6xl lg:text-6xl my-2">Akshitha Reddy</p>

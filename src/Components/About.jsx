@@ -4,7 +4,7 @@ import { ReactComponent as Women } from '../assets/women.svg';
 import akshithaReddyResume from '../assets/akshithaReddyResume.docx';
 
 const About = () => (
-  <div className="text-center mt-24 lg:mt-12 md:pt-20 mx-10">
+  <div className="text-center mt-24 lg:mt-12 md:py-20 mx-10 lg:my-12">
     <h1 className="text-2xl text-gray-500">About</h1>
     <div className="flex lg:flex-row flex-col justify-center items-center mx-auto mt-18 lg:mt-16">
       <div className="w-80 h-80 lg:w-1/3 lg:h-1/3">

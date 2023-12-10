@@ -4,7 +4,7 @@ import data from '../assets/data';
 import { FaGithub } from "react-icons/fa";
 
 const Projects = () => (
-  <div className="text-center mt-24 lg:mt-12 md:pt-0 my-10">
+  <div className="text-center mt-24 my-10 lg:my-12 md:py-20">
     <h1 className="text-2xl text-gray-500">Projects</h1>
     <div className="mb-20 mt-12 flex flex-wrap flex-col lg:flex-row justify-center items-center">
       {data.map((item) => (

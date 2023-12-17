@@ -8,7 +8,7 @@ const Projects = () => (
     <h1 className="text-2xl text-gray-500">Projects</h1>
     <div className="mb-20 mt-12 flex flex-wrap flex-col lg:flex-row justify-center items-center">
       {data.map((item) => (
-        <div className="p-4">
+        <div className="p-4" key={item.id}>
         <div className="w-72 h-auto md:w-80 md:h-auto lg:w-96 lg:h-auto m-6 rounded bg-green-900 backdrop-saturate-200" style={{ backgroundImage: `url(${item.img}) ` }} key={item.id}>
           <div className= "p-4 backdrop-saturate-200 bg-black/70">
           <Zoom >

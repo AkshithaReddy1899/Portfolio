@@ -9,7 +9,7 @@ const Experience = () => {
 		<div className="mt-10 lg:pl-10 lg:border-l-2 border-slate-700 flex justify-center items-center px-auto md:py-10 md:px-0 lg:flex lg:flex-col lg:items-start">
 			{
 				experienceData.map((item) => (
-					<div className="text-left">
+					<div className="text-left" key={item.id}>
 						<h2>{item.role}</h2>
 						<h3>{item.title}</h3>
 						<p>{item.year}</p>
